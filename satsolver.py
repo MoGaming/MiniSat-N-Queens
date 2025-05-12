@@ -46,7 +46,7 @@ for index in range(n): # queen positions
 
 clauses.sort() # to make it easier to read 
 
-# define a simple CNF formula and write to a file 
+# define the CNF formula and write to file 
 cnf_data = "p cnf " + str(totalPositions) + " " + str(len(clauses)) + "\n"
 for clause in clauses:
     cnf_data = cnf_data + clause + " 0\n"
