@@ -1,7 +1,7 @@
 import subprocess
 
 # n queens problem in MiniSat
-n = 4
+n = 5
 totalPositions = n**2
 clauses = []
 
